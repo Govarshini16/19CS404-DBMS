@@ -12,7 +12,7 @@ Gain hands-on experience in designing ER diagrams that represent database struct
 
 **Business Context:**  
 FlexiFit Gym wants a database to manage its members, trainers, and fitness programs.
-
+ 
 **Requirements:**  
 - Members register with name, membership type, and start date.  
 - Each member can join multiple programs (Yoga, Zumba, Weight Training).  
