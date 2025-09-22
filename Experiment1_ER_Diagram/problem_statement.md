@@ -23,7 +23,7 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 
 ### ER Diagram:
 *Paste or attach your diagram here*  
-![ER Diagram](<img width="957" height="761" alt="image" src="https://github.com/user-attachments/assets/eadec84d-5c92-41fb-8e01-e5446de1a46c" />)
+![ER Diagram](<img width="957" height="761" alt="image" src="https://github.com/user-attachments/assets/84bd447e-fff8-469d-83ed-1922e70e6529" />)
 
 ### Entities and Attributes
 
