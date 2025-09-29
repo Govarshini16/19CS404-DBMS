@@ -279,6 +279,7 @@ foreign key(CustomerID) references Customers(CustomerID)
 <img width="1207" height="347" alt="image" src="https://github.com/user-attachments/assets/6ae8a49f-ea58-438b-bdad-df83d1d8ca79" />
 <img width="1213" height="333" alt="image" src="https://github.com/user-attachments/assets/78b5c5d8-2c57-47bc-982a-474434ab537a" />
 
+<img width="1337" height="62" alt="image" src="https://github.com/user-attachments/assets/cfb4d72b-9a98-42a7-afd8-a90842fd42a1" />
 
 
 
