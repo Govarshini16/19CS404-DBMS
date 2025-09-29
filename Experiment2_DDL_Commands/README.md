@@ -188,63 +188,98 @@ alter table employee ADD COLUMN last_name varchar(50);
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="1090" height="427" alt="image" src="https://github.com/user-attachments/assets/30352773-5a08-406f-b4b3-79619e571471" />
 
 ```sql
--- Paste your SQL code below for Question 6
+CREATE TABLE  Products (
+ProductID INTEGER,
+ProductName  TEXT,
+Price  REAL,
+Stock  INTEGER
+);
 ```
 
 **Output:**
+<img width="1208" height="372" alt="image" src="https://github.com/user-attachments/assets/27380d3f-8cae-4b90-b816-555909d33aa0" />
+<img width="1203" height="377" alt="image" src="https://github.com/user-attachments/assets/25240591-255a-4bbe-be6b-4b32670affdc" />
 
-![Output6](output.png)
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="822" height="357" alt="image" src="https://github.com/user-attachments/assets/db196945-0d50-42eb-90ea-ea7273f6c0f6" />
+
 
 ```sql
--- Paste your SQL code below for Question 7
+INSERT INTO Employee (EmployeeID, Name, Department, Salary)
+SELECT EmployeeID, Name, Department, Salary
+FROM Former_employees;
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="1213" height="325" alt="image" src="https://github.com/user-attachments/assets/b3e17d25-2e51-43a2-8fe9-c6988ca45b90" />
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+<img width="1041" height="353" alt="image" src="https://github.com/user-attachments/assets/ee4d105d-7f37-4784-93c7-531e71a69350" />
+
 
 ```sql
--- Paste your SQL code below for Question 8
+CREATE TABLE Invoices (
+InvoiceID INTEGER primary key,
+InvoiceDate  DATE,
+DueDate DATE CHECK(DueDate>InvoiceDate),
+Amount REAL check(Amount>0)
+);
 ```
 
 **Output:**
 
-![Output8](output.png)
+<img width="1201" height="351" alt="image" src="https://github.com/user-attachments/assets/e9f0538e-3e04-4ddb-84bc-cda9ee64f0c9" />
+<img width="1203" height="340" alt="image" src="https://github.com/user-attachments/assets/2d394b5e-35f3-448f-8be3-864cb2dbe0f5" />
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="1170" height="447" alt="image" src="https://github.com/user-attachments/assets/0f4b90ab-3390-4826-b4d8-d35ed079d650" />
 
 ```sql
--- Paste your SQL code below for Question 9
+create table item (
+    item_id TEXT  primary key,
+    item_desc TEXT not null,
+    rate INTEGER not null,
+    icom_id TEXT check (length(icom_id)=4),
+    foreign key (icom_id) references company(com_id)
+    on update cascade on delete cascade
+);
 ```
 
 **Output:**
 
-![Output9](output.png)
+<img width="1207" height="410" alt="image" src="https://github.com/user-attachments/assets/d03c31d4-dd72-47d8-a543-911aa00555a1" />
+<img width="1202" height="406" alt="image" src="https://github.com/user-attachments/assets/d1d55142-9348-4e0a-8bf4-6f0961974fc6" />
+
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="1205" height="322" alt="image" src="https://github.com/user-attachments/assets/3df7c572-ed16-47b0-a1fc-34c1f875945e" />
+
 
 ```sql
--- Paste your SQL code below for Question 10
+create table Orders (
+OrderID  INTEGER primary key,
+OrderDate DATE  not NULL,
+CustomerID INTEGER,
+foreign key(CustomerID) references Customers(CustomerID)
+);
 ```
 
 **Output:**
+<img width="1207" height="347" alt="image" src="https://github.com/user-attachments/assets/6ae8a49f-ea58-438b-bdad-df83d1d8ca79" />
+<img width="1213" height="333" alt="image" src="https://github.com/user-attachments/assets/78b5c5d8-2c57-47bc-982a-474434ab537a" />
 
-![Output10](output.png)
+
 
 
 ## RESULT
