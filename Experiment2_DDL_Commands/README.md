@@ -258,7 +258,7 @@ create table item (
 **Output:**
 
 <img width="1207" height="410" alt="image" src="https://github.com/user-attachments/assets/d03c31d4-dd72-47d8-a543-911aa00555a1" />
-<img width="1202" height="406" alt="image" src="https://github.com/user-attachments/assets/d1d55142-9348-4e0a-8bf4-6f0961974fc6" />
+<img width="1202" height="406" alt="image" src="https://github.com/user-attachments/assets/d1d55142-9348-4e0a-8bf4-6f0961974fc6" /> 
 
 
 **Question 10**
