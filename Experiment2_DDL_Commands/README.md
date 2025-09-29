@@ -105,63 +105,86 @@ CREATE TABLE Table_Name (
 
 **Question 1**
 --
--- Paste Question 1 here
+--<img width="1033" height="367" alt="image" src="https://github.com/user-attachments/assets/00851fb2-d38b-476a-a516-d1bd3c7053f6" />
+
 
 ```sql
--- Paste your SQL code below for Question 1
+INSERT INTO Products (Name,Category,Price, Stock)
+VALUES
+('Smartphone',  'Electronics',  800,150),
+('Headphones','Accessories' , 200,300);
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1201" height="417" alt="image" src="https://github.com/user-attachments/assets/b5a90d04-5b19-478b-a8e0-14fd4553ad16" />
+<img width="1206" height="406" alt="image" src="https://github.com/user-attachments/assets/45cd28d9-236a-47cb-8e92-78915105212b" />
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+-- <img width="1182" height="268" alt="image" src="https://github.com/user-attachments/assets/c45aa240-981b-415c-9f8d-0a7c045cdd05" />
+
 
 ```sql
--- Paste your SQL code below for Question 2
+INSERT INTO Books(ISBN ,Title,Author,Publisher, Year)
+VALUES('978-1234567890',  'Data Science Essentials',  'Jane Doe','TechBooks',2024);
 ```
 
 **Output:**
+<img width="1216" height="310" alt="image" src="https://github.com/user-attachments/assets/a006a753-fca0-4f6a-9865-4169973af04f" />
+<img width="1203" height="310" alt="image" src="https://github.com/user-attachments/assets/01d1b6da-1b06-4481-81c9-841a9092f55b" />
 
-![Output2](output.png)
 
 **Question 3**
----
--- Paste Question 3 here
+---<img width="1041" height="587" alt="image" src="https://github.com/user-attachments/assets/de19a6f5-236b-44ec-a969-595bdabd2bdc" />
 
+--
 ```sql
--- Paste your SQL code below for Question 3
+ALTER TABLE Student_detailS ADD COLUMN  Mobilenumber number;
 ```
 
 **Output:**
+<img width="1208" height="420" alt="image" src="https://github.com/user-attachments/assets/72735fe7-a3bf-447c-8286-c8b85af17d82" />
 
-![Output3](output.png)
+<img width="1203" height="433" alt="image" src="https://github.com/user-attachments/assets/7825e8bf-dd5a-4073-b392-b31cead5597e" />
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+-- <img width="1202" height="352" alt="image" src="https://github.com/user-attachments/assets/b4a917da-260a-4553-a69d-8a5ee7959255" />
+
 
 ```sql
--- Paste your SQL code below for Question 4
+create table Attendance (
+AttendanceID  INTEGER  primary key,
+EmployeeID INTEGER,
+AttendanceDate  DATE,
+Status  TEXT check(status in('Present', 'Absent', 'Leave')),
+foreign key (EmployeeID) references Employees(EmployeeID)
+);
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="1198" height="363" alt="image" src="https://github.com/user-attachments/assets/13a3812b-a302-4330-8c78-23f8971ffb07" />
+<img width="1210" height="347" alt="image" src="https://github.com/user-attachments/assets/9552b7f8-73cb-42eb-92ae-ab89520c8de3" />
+
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+<img width="1176" height="338" alt="image" src="https://github.com/user-attachments/assets/172590c2-0185-41ee-92b0-f5cf592bb69c" />
 
 ```sql
--- Paste your SQL code below for Question 5
+alter table employee ADD COLUMN first_name varchar(50);
+alter table employee ADD COLUMN last_name varchar(50);
 ```
 
 **Output:**
+<img width="1200" height="391" alt="image" src="https://github.com/user-attachments/assets/b4309e7b-42d1-43d9-8ac4-656a0f77d2ab" />
+<img width="1200" height="372" alt="image" src="https://github.com/user-attachments/assets/0512412d-67f5-4200-977f-a2dccc90a8cb" />
 
-![Output5](output.png)
 
 **Question 6**
 ---
