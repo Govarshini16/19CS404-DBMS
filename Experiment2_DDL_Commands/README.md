@@ -9,7 +9,7 @@ To study and implement DDL commands and different types of constraints.
 Used to create a new relation (table).
 
 **Syntax:**
-```sql
+```sql 
 CREATE TABLE (
   field_1 data_type(size),
   field_2 data_type(size),
