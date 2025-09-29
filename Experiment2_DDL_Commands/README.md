@@ -281,7 +281,7 @@ foreign key(CustomerID) references Customers(CustomerID)
 
 <img width="1337" height="62" alt="image" src="https://github.com/user-attachments/assets/cfb4d72b-9a98-42a7-afd8-a90842fd42a1" />
 
-
+   
 
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
