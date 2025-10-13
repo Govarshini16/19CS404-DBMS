@@ -47,39 +47,55 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Paste Question 1 here
+-- <img width="807" height="241" alt="image" src="https://github.com/user-attachments/assets/9cb542f5-7b6a-419a-a7b0-851ea4e1c9d3" />
+
 
 ```sql
--- Paste your SQL code below for Question 1
+UPDATE products
+SET product_name = 'Grapefruit'
+WHERE product_id = 4;
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1213" height="307" alt="image" src="https://github.com/user-attachments/assets/5612072c-b161-429d-b10a-e7e1c4e04b08" />
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+--<img width="806" height="510" alt="image" src="https://github.com/user-attachments/assets/da41f5b0-0cbd-426f-9eb6-2b66a6d6016b" />
+
 
 ```sql
--- Paste your SQL code below for Question 2
+UPDATE SALES
+SET total_sell_price= quantity * sell_price
+WHERE product_id = 10;
 ```
 
 **Output:**
 
-![Output2](output.png)
+<img width="1218" height="570" alt="image" src="https://github.com/user-attachments/assets/cf52ecff-b0f7-4a11-ac0d-4ed9b5317e83" />
+<img width="1207" height="562" alt="image" src="https://github.com/user-attachments/assets/1ebbe833-bcd0-4d2d-9842-c003cd6e83dd" />
+
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+<img width="823" height="558" alt="image" src="https://github.com/user-attachments/assets/975cb2f9-266e-475f-9f0f-7ea8a4abb9b6" />
+
 
 ```sql
--- Paste your SQL code below for Question 3
+UPDATE Products
+SET sell_price = sell_price * 1.15
+WHERE quantity < 50  AND supplier_id = 10;
 ```
 
 **Output:**
 
-![Output3](output.png)
+<img width="1211" height="563" alt="image" src="https://github.com/user-attachments/assets/d8ee8630-874e-444e-ba50-1c090c13bdce" />
+![Uploading image.png…]()
+
+
 
 **Question 4**
 ---
