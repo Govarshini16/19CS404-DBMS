@@ -93,13 +93,15 @@ WHERE quantity < 50  AND supplier_id = 10;
 **Output:**
 
 <img width="1211" height="563" alt="image" src="https://github.com/user-attachments/assets/d8ee8630-874e-444e-ba50-1c090c13bdce" />
-<img width="786" height="500" alt="image" src="https://github.com/user-attachments/assets/cdbe093e-069c-432c-bc47-4d0deb9ffb3d" />
+
 
 
 
 **Question 4**
 ---
--- <img width="1212" height="456" alt="image" src="https://github.com/user-attachments/assets/e38dfa44-c5c1-4923-8169-1a974e62ddbb" />
+--
+<img width="786" height="500" alt="image" src="https://github.com/user-attachments/assets/cdbe093e-069c-432c-bc47-4d0deb9ffb3d" />
+<img width="1212" height="456" alt="image" src="https://github.com/user-attachments/assets/e38dfa44-c5c1-4923-8169-1a974e62ddbb" />
 
 
 ```sql
