@@ -116,7 +116,6 @@ DELETE FROM surgeries WHERE surgery_id = 3;
 **Question 5**
 ---
 <img width="1210" height="620" alt="image" src="https://github.com/user-attachments/assets/918e49d9-3445-4053-b9e9-6990d674190e" />
-<img width="1207" height="801" alt="image" src="https://github.com/user-attachments/assets/5c339eae-d403-428d-8057-d1c2dab70143" />
 
 
 ```sql
@@ -124,14 +123,13 @@ DELETE FROM Customer WHERE WORKING_AREA = 'New York';
 ```
 
 **Output:**
-
+<img width="1207" height="801" alt="image" src="https://github.com/user-attachments/assets/5c339eae-d403-428d-8057-d1c2dab70143" />
 <img width="1202" height="792" alt="image" src="https://github.com/user-attachments/assets/37b33ddb-6bbc-4191-905a-3e66efc073be" />
 <img width="1190" height="800" alt="image" src="https://github.com/user-attachments/assets/551be26e-fab3-4397-ac7c-e6be6502f08e" />
 
 **Question 6**
 ---
 <img width="1203" height="691" alt="image" src="https://github.com/user-attachments/assets/495fa928-e7c8-458f-beea-c8abf31186fb" />
-
 
 ```sql
 DELETE FROM Customer  WHERE GRADE >= 2;
