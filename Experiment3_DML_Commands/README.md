@@ -209,7 +209,7 @@ FROM emp;
 
 <img width="1197" height="427" alt="image" src="https://github.com/user-attachments/assets/64243b07-d6e4-4286-a795-e529427adcde" />
 
-##GRADE
+## GRADE
 <img width="1323" height="67" alt="image" src="https://github.com/user-attachments/assets/07f542e1-21ac-4bc7-b362-923a8582ff45" />
 
 
