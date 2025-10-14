@@ -93,93 +93,127 @@ WHERE quantity < 50  AND supplier_id = 10;
 **Output:**
 
 <img width="1211" height="563" alt="image" src="https://github.com/user-attachments/assets/d8ee8630-874e-444e-ba50-1c090c13bdce" />
-![Uploading image.png…]()
+<img width="786" height="500" alt="image" src="https://github.com/user-attachments/assets/cdbe093e-069c-432c-bc47-4d0deb9ffb3d" />
 
 
 
 **Question 4**
 ---
--- Paste Question 4 here
+-- <img width="1212" height="456" alt="image" src="https://github.com/user-attachments/assets/e38dfa44-c5c1-4923-8169-1a974e62ddbb" />
+
 
 ```sql
--- Paste your SQL code below for Question 4
+DELETE FROM surgeries WHERE surgery_id = 3;
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="1210" height="620" alt="image" src="https://github.com/user-attachments/assets/918e49d9-3445-4053-b9e9-6990d674190e" />
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+<img width="1207" height="801" alt="image" src="https://github.com/user-attachments/assets/5c339eae-d403-428d-8057-d1c2dab70143" />
+
 
 ```sql
--- Paste your SQL code below for Question 5
+DELETE FROM Customer WHERE WORKING_AREA = 'New York';
 ```
 
 **Output:**
 
-![Output5](output.png)
+<img width="1202" height="792" alt="image" src="https://github.com/user-attachments/assets/37b33ddb-6bbc-4191-905a-3e66efc073be" />
+<img width="1190" height="800" alt="image" src="https://github.com/user-attachments/assets/551be26e-fab3-4397-ac7c-e6be6502f08e" />
+<img width="1203" height="691" alt="image" src="https://github.com/user-attachments/assets/daee0702-d18d-4633-99fb-be7abec1bf4c" />
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="1203" height="691" alt="image" src="https://github.com/user-attachments/assets/495fa928-e7c8-458f-beea-c8abf31186fb" />
+
 
 ```sql
--- Paste your SQL code below for Question 6
+DELETE FROM Customer  WHERE GRADE >= 2;
 ```
 
 **Output:**
+<img width="1210" height="621" alt="image" src="https://github.com/user-attachments/assets/0806075c-cd22-48de-87f8-f51035cb3f9c" />
 
-![Output6](output.png)
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="1133" height="458" alt="image" src="https://github.com/user-attachments/assets/fa5f1d41-5e9e-45c0-986f-d879a713f3ac" />
 
 ```sql
--- Paste your SQL code below for Question 7
+SELECT  * 
+FROM salesman
+where name LIKE 'N__l%';
 ```
 
 **Output:**
+<img width="1213" height="402" alt="image" src="https://github.com/user-attachments/assets/9fc5b515-e5ba-4272-95de-2b937e8fcc5f" />
 
-![Output7](output.png)
 
 **Question 8**
 ---
--- Paste Question 8 here
+<img width="1183" height="637" alt="image" src="https://github.com/user-attachments/assets/6788f44e-2821-499c-ad4f-7976c3ed08cc" />
+
 
 ```sql
--- Paste your SQL code below for Question 8
+SELECT id,
+    value2,
+    CASE
+        WHEN value2 < 10 THEN 'Small'
+        WHEN value2 BETWEEN 10 AND 50 THEN 'Medium'
+        WHEN value2 > 50 THEN 'Large'
+    END AS size_category
+FROM calculations;
 ```
 
 **Output:**
+<img width="1206" height="542" alt="image" src="https://github.com/user-attachments/assets/f42fb687-b48e-46e1-86eb-508ad8c8e335" />
 
-![Output8](output.png)
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="1042" height="662" alt="image" src="https://github.com/user-attachments/assets/88b7ce18-3d28-4a5d-add8-66fe37198361" />
 
 ```sql
--- Paste your SQL code below for Question 9
+select NAME , CITY
+FROM salesman
+where CITY IN ('London', 'Rome');
 ```
 
 **Output:**
+<img width="1220" height="417" alt="image" src="https://github.com/user-attachments/assets/3c34b145-1521-41d1-b9a0-93059f407981" />
 
-![Output9](output.png)
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="980" height="697" alt="image" src="https://github.com/user-attachments/assets/2c7940b2-b0b3-4137-abf4-7492d0d4b463" />
+
 
 ```sql
--- Paste your SQL code below for Question 10
+SELECT ename,  
+       hiredate,
+       CASE strftime('%w', hiredate)
+            WHEN '0' THEN 'Sunday'
+            WHEN '1' THEN 'Monday'
+            WHEN '2' THEN 'Tuesday'
+            WHEN '3' THEN 'Wednesday'
+            WHEN '4' THEN 'Thursday'
+            WHEN '5' THEN 'Friday'
+            WHEN '6' THEN 'Saturday'
+        END AS day_of_week
+FROM emp;
 ```
 
 **Output:**
 
-![Output10](output.png)
+<img width="1197" height="427" alt="image" src="https://github.com/user-attachments/assets/64243b07-d6e4-4286-a795-e529427adcde" />
+
+##GRADE
+<img width="1323" height="67" alt="image" src="https://github.com/user-attachments/assets/07f542e1-21ac-4bc7-b362-923a8582ff45" />
+
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
