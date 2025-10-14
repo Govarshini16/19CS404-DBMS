@@ -94,9 +94,6 @@ WHERE quantity < 50  AND supplier_id = 10;
 
 <img width="1211" height="563" alt="image" src="https://github.com/user-attachments/assets/d8ee8630-874e-444e-ba50-1c090c13bdce" />
 
-
-
-
 **Question 4**
 ---
 --
@@ -136,7 +133,6 @@ DELETE FROM Customer  WHERE GRADE >= 2;
 ```
 
 **Output:**
-<img width="1203" height="691" alt="image" src="https://github.com/user-attachments/assets/daee0702-d18d-4633-99fb-be7abec1bf4c" />
 
 <img width="1210" height="621" alt="image" src="https://github.com/user-attachments/assets/0806075c-cd22-48de-87f8-f51035cb3f9c" />
 
