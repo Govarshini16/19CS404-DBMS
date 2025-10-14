@@ -101,7 +101,6 @@ WHERE quantity < 50  AND supplier_id = 10;
 ---
 --
 <img width="786" height="500" alt="image" src="https://github.com/user-attachments/assets/cdbe093e-069c-432c-bc47-4d0deb9ffb3d" />
-<img width="1212" height="456" alt="image" src="https://github.com/user-attachments/assets/e38dfa44-c5c1-4923-8169-1a974e62ddbb" />
 
 
 ```sql
@@ -110,11 +109,13 @@ DELETE FROM surgeries WHERE surgery_id = 3;
 
 **Output:**
 
-<img width="1210" height="620" alt="image" src="https://github.com/user-attachments/assets/918e49d9-3445-4053-b9e9-6990d674190e" />
+<img width="1212" height="456" alt="image" src="https://github.com/user-attachments/assets/e38dfa44-c5c1-4923-8169-1a974e62ddbb" />
+
 
 
 **Question 5**
 ---
+<img width="1210" height="620" alt="image" src="https://github.com/user-attachments/assets/918e49d9-3445-4053-b9e9-6990d674190e" />
 <img width="1207" height="801" alt="image" src="https://github.com/user-attachments/assets/5c339eae-d403-428d-8057-d1c2dab70143" />
 
 
@@ -126,7 +127,6 @@ DELETE FROM Customer WHERE WORKING_AREA = 'New York';
 
 <img width="1202" height="792" alt="image" src="https://github.com/user-attachments/assets/37b33ddb-6bbc-4191-905a-3e66efc073be" />
 <img width="1190" height="800" alt="image" src="https://github.com/user-attachments/assets/551be26e-fab3-4397-ac7c-e6be6502f08e" />
-<img width="1203" height="691" alt="image" src="https://github.com/user-attachments/assets/daee0702-d18d-4633-99fb-be7abec1bf4c" />
 
 **Question 6**
 ---
@@ -138,6 +138,8 @@ DELETE FROM Customer  WHERE GRADE >= 2;
 ```
 
 **Output:**
+<img width="1203" height="691" alt="image" src="https://github.com/user-attachments/assets/daee0702-d18d-4633-99fb-be7abec1bf4c" />
+
 <img width="1210" height="621" alt="image" src="https://github.com/user-attachments/assets/0806075c-cd22-48de-87f8-f51035cb3f9c" />
 
 
