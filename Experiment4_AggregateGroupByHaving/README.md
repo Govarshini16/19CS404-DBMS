@@ -154,6 +154,7 @@ HAVING income>2000000;
 
 **Output:**
 
+
 <img width="841" height="422" alt="image" src="https://github.com/user-attachments/assets/8f846514-212c-4fad-adce-0bd83e1c5220" />
 
 
