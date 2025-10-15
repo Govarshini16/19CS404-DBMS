@@ -107,68 +107,87 @@ where income > 50000;
 
 **Output:**
 
-![Output5](output.png)
+<img width="1205" height="377" alt="image" src="https://github.com/user-attachments/assets/906c05d7-8535-4526-b70f-b633f9838070" />
+
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="587" height="482" alt="image" src="https://github.com/user-attachments/assets/901010fb-5817-40b1-856e-74f41d8a8bc2" />
+
 
 ```sql
--- Paste your SQL code below for Question 6
+SELECT MAX(purch_amt) AS MAXIMUM
+FROM orders;
 ```
 
 **Output:**
-
-<img width="1205" height="377" alt="image" src="https://github.com/user-attachments/assets/906c05d7-8535-4526-b70f-b633f9838070" />
+<img width="842" height="365" alt="image" src="https://github.com/user-attachments/assets/f389d01d-4453-47a9-b1e0-ee76e0647f86" />
 
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="746" height="535" alt="image" src="https://github.com/user-attachments/assets/0c29ffe8-67d1-4448-8b1f-df107be52f80" />
+
 
 ```sql
--- Paste your SQL code below for Question 7
+SELECT name as fruit_name, MIN(inventory) AS lowest_quantity
+FROM fruits;
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="848" height="365" alt="image" src="https://github.com/user-attachments/assets/dcf7e145-fecf-4680-9715-4cb6a73dc557" />
+
 
 **Question 8**
 ---
--- Paste Question 8 here
 
 ```sql
--- Paste your SQL code below for Question 8
+SELECT age,MAX(income)
+FROM employee
+GROUP BY age
+HAVING income>2000000;
 ```
 
 **Output:**
 
-![Output8](output.png)
+<img width="841" height="422" alt="image" src="https://github.com/user-attachments/assets/8f846514-212c-4fad-adce-0bd83e1c5220" />
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="848" height="530" alt="image" src="https://github.com/user-attachments/assets/2397ef2b-d255-4545-873c-47334fccbdad" />
+
 
 ```sql
--- Paste your SQL code below for Question 9
+SELECT jdate,MIN(workhour)
+FROM employee1
+GROUP BY jdate
+HAVING MIN(workhour)<10;
 ```
 
 **Output:**
 
-![Output9](output.png)
+<img width="836" height="496" alt="image" src="https://github.com/user-attachments/assets/f54441dd-4364-407a-8100-8d8ba73e6a55" />
+
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="842" height="532" alt="image" src="https://github.com/user-attachments/assets/a22b37ad-d102-4c5d-9887-9000f0bd0819" />
 
 ```sql
--- Paste your SQL code below for Question 10
+SELECT jdate, MAX(workhour)
+FROM employee1
+GROUP BY jdate
+HAVING MAX(workhour)>12;
 ```
 
 **Output:**
 
-![Output10](output.png)
+<img width="840" height="447" alt="image" src="https://github.com/user-attachments/assets/a64fc0f0-949b-459c-8780-08ee8ad347ca" />
+
+## GRADE
+<img width="1322" height="57" alt="image" src="https://github.com/user-attachments/assets/b19b1bbf-bff8-495f-99f3-fe2498a4c113" />
 
 
 ## RESULT
