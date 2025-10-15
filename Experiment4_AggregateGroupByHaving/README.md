@@ -60,6 +60,7 @@ GROUP BY DoctorID;
 ```
 
 **Output:**
+
 <img width="1207" height="688" alt="image" src="https://github.com/user-attachments/assets/ccb03ab5-e910-42c5-946c-1571ad54e3cf" />
 
 
@@ -121,6 +122,7 @@ FROM orders;
 ```
 
 **Output:**
+
 <img width="842" height="365" alt="image" src="https://github.com/user-attachments/assets/f389d01d-4453-47a9-b1e0-ee76e0647f86" />
 
 
@@ -141,6 +143,7 @@ FROM fruits;
 
 **Question 8**
 ---
+<img width="1217" height="485" alt="image" src="https://github.com/user-attachments/assets/b085883b-3312-4dd9-9b90-30bd0ccc1cac" />
 
 ```sql
 SELECT age,MAX(income)
