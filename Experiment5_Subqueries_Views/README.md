@@ -3,7 +3,7 @@
 ## AIM
 To study and implement subqueries and views.
 
-## THEORY
+## THEORY 
 
 ### Subqueries
 A subquery is a query inside another SQL query and is embedded in:
