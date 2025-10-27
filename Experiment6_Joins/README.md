@@ -54,51 +54,69 @@ ON table1.column = table2.column;
 
 **Question 1**
 --
--- Paste Question 1 here
+<img width="1282" height="837" alt="image" src="https://github.com/user-attachments/assets/06ac49df-8b67-484e-afce-f99933e4a530" />
+
 
 ```sql
--- Paste your SQL code below for Question 1
+select c.cust_name,c.city,c.grade,s.name as Salesman,s.city
+from customer c
+join salesman s on c.salesman_id = s.salesman_id
+where grade < 300
+order by c.customer_id asc;
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1313" height="662" alt="image" src="https://github.com/user-attachments/assets/47252d3e-1176-4f44-a1ba-1f85a277519e" />
 
 **Question 2**
 ---
--- Paste Question 2 here
+<img width="857" height="457" alt="image" src="https://github.com/user-attachments/assets/137e5440-7e21-4c45-baf7-39e9cec151b2" />
+
 
 ```sql
--- Paste your SQL code below for Question 2
+select c.cust_name,c.city ,o.ord_no,o.ord_date,o.purch_amt
+from orders o
+left join customer c on o.customer_id = c.customer_id
+where c.city = 'London';
 ```
 
 **Output:**
 
-![Output2](output.png)
+<img width="1307" height="430" alt="image" src="https://github.com/user-attachments/assets/48efe954-bea0-41e9-9e29-3eefc3f47a17" />
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+<img width="925" height="793" alt="image" src="https://github.com/user-attachments/assets/8934a7d9-2849-47f0-a5cc-cb3fe3ceb317" />
+
 
 ```sql
--- Paste your SQL code below for Question 3
+select s.name as Salesman , c.cust_name, c.city
+from salesman s
+join customer c on c.city=s.city;
 ```
 
 **Output:**
 
-![Output3](output.png)
+<img width="1248" height="747" alt="image" src="https://github.com/user-attachments/assets/23c6df25-889c-43ed-b3ba-d964a843c613" />
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+<img width="886" height="817" alt="image" src="https://github.com/user-attachments/assets/ca45b525-fe3c-4ba1-a1ca-09d8c53083f4" />
 
 ```sql
--- Paste your SQL code below for Question 4
+select p.first_name as patient_name , d.first_name as doctor_name
+from doctors d
+inner join patients p on d.doctor_id=p.doctor_id
+where p.discharge_date not null;
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="883" height="465" alt="image" src="https://github.com/user-attachments/assets/a61b3e7c-718c-4289-b004-a7d2d96dbe3f" />
+
 
 **Question 5**
 ---
