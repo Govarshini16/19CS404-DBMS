@@ -213,6 +213,8 @@ WHERE dosage = (
 
 
 ## GRADE
+<img width="1127" height="71" alt="image" src="https://github.com/user-attachments/assets/2d1650ee-bf17-4f39-9d98-3ba24ad5a435" />
+
 
 ## RESULT
 Thus, the SQL queries to implement subqueries and views have been executed successfully.
