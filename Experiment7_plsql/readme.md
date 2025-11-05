@@ -34,8 +34,19 @@ END;
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
 
+  
+**Code:
+
+```
+SELECT MAX(45, 80) AS greater_number;
+```
+
 **Expected Output:**  
 Greater number is: 80
+
+**Output
+
+<img width="941" height="110" alt="image" src="https://github.com/user-attachments/assets/88c56a31-6f5e-4bca-a0c1-912d34edc861" />
 
 ---
 
@@ -92,3 +103,4 @@ Largest of three number is 15
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
