@@ -1,4 +1,4 @@
-<img width="1280" height="60" alt="image" src="https://github.com/user-attachments/assets/bb4d4c03-637b-4ff4-8aa6-c76bb5c93821" /><img width="1280" height="60" alt="image" src="https://github.com/user-attachments/assets/627d2563-e061-40fe-b703-1df655cd3cb8" /><img width="1280" height="60" alt="image" src="https://github.com/user-attachments/assets/cce6f04b-727e-4b41-8589-6c41c729f1d6" /><img width="1321" height="788" alt="image" src="https://github.com/user-attachments/assets/de4ac96c-6be2-4126-bb00-938ca0ed8070" /># Experiment 6: Joins
+# Experiment 6: Joins
 
 ## AIM
 To study and implement different types of joins.
