@@ -1,4 +1,4 @@
-# Experiment 6: Joins
+<img width="1280" height="60" alt="image" src="https://github.com/user-attachments/assets/bb4d4c03-637b-4ff4-8aa6-c76bb5c93821" /><img width="1280" height="60" alt="image" src="https://github.com/user-attachments/assets/627d2563-e061-40fe-b703-1df655cd3cb8" /><img width="1280" height="60" alt="image" src="https://github.com/user-attachments/assets/cce6f04b-727e-4b41-8589-6c41c729f1d6" /><img width="1321" height="788" alt="image" src="https://github.com/user-attachments/assets/de4ac96c-6be2-4126-bb00-938ca0ed8070" /># Experiment 6: Joins
 
 ## AIM
 To study and implement different types of joins.
@@ -120,75 +120,116 @@ where p.discharge_date not null;
 
 **Question 5**
 ---
--- Paste Question 5 here
+<img width="1200" height="758" alt="image" src="https://github.com/user-attachments/assets/1e2ab07c-af8b-4ccd-b3d9-45e4f71168fd" />
+
+<img width="1026" height="732" alt="image" src="https://github.com/user-attachments/assets/2d71d607-ef65-41e0-acfc-f046b84d3234" />
+
+
 
 ```sql
--- Paste your SQL code below for Question 5
+select c.cust_name,c.city,o.ord_no,o.ord_date,o.purch_amt as "Order Amount" ,  s.name, s.commission
+from customer c
+left join orders o on c.customer_id = o.customer_id
+left join salesman s on s.salesman_id = c.salesman_id;
 ```
 
 **Output:**
+<img width="1263" height="796" alt="image" src="https://github.com/user-attachments/assets/59358d05-4307-42ad-a8c7-f56b85fa60d2" />
 
-![Output5](output.png)
+<img width="1275" height="803" alt="image" src="https://github.com/user-attachments/assets/0dfc7d3b-1ab6-4f80-9d6d-54bf79f2b5dd" />
+
+<img width="1260" height="555" alt="image" src="https://github.com/user-attachments/assets/d3cdcbbb-752d-433d-aa81-0df4b490503d" />
+
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="1276" height="768" alt="image" src="https://github.com/user-attachments/assets/23e802a4-998e-4100-b133-51c620e41be2" />
+
 
 ```sql
--- Paste your SQL code below for Question 6
+select c.cust_name , c.city, c.grade, s.name as Salesman, s.city
+from customer c
+join salesman s on c.salesman_id = s.salesman_id
+order by c.customer_id asc;
 ```
 
 **Output:**
 
-![Output6](output.png)
+<img width="1321" height="788" alt="image" src="https://github.com/user-attachments/assets/a7f046df-8095-4b63-8d8e-f855f82c2b4e" />
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="1243" height="662" alt="image" src="https://github.com/user-attachments/assets/664c7a47-beaa-45e9-9dcc-633321e9f3ca" />
+<img width="907" height="660" alt="image" src="https://github.com/user-attachments/assets/08e0600c-924b-453a-b0a6-5980375a1db3" />
+
+-- 
+
 
 ```sql
--- Paste your SQL code below for Question 7
+select o.ord_no ,o.ord_date,o.purch_amt,c.cust_name as "Customer Name" ,c.grade,s.name as Salesman,s.commission
+from orders o
+left join customer c on o.customer_id = c.customer_id
+left join salesman s on o.salesman_id = s.salesman_id;
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="1335" height="821" alt="image" src="https://github.com/user-attachments/assets/2d77cdff-5e28-4628-9fe2-12ccbdb67508" />
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+<img width="1185" height="657" alt="image" src="https://github.com/user-attachments/assets/b98633c1-81b2-4061-a8ef-4c86dee9a4d1" />
+
 
 ```sql
--- Paste your SQL code below for Question 8
+select p.first_name as patient_name , t.test_name
+from patients p
+inner join test_results t on p.patient_id = t.patient_id;
 ```
 
 **Output:**
 
-![Output8](output.png)
+<img width="1281" height="558" alt="image" src="https://github.com/user-attachments/assets/03eeb79b-40cd-48ae-ba47-a83f044e0e98" />
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="1261" height="316" alt="image" src="https://github.com/user-attachments/assets/c1673289-8c5d-4bbd-ab18-3b60c911cc9d" />
+
 
 ```sql
--- Paste your SQL code below for Question 9
+select s.*
+from salesman s 
+left join customer c on s.salesman_id=c.salesman_id
+where cust_name = 'Fabian Johns';
 ```
 
 **Output:**
+<img width="1283" height="427" alt="image" src="https://github.com/user-attachments/assets/ab51e7a6-6c52-4e6d-9885-a03814a112f7" />
 
-![Output9](output.png)
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="1257" height="666" alt="image" src="https://github.com/user-attachments/assets/ce4f487d-4886-4e1a-9fc8-df559e122a87" />
+
 
 ```sql
--- Paste your SQL code below for Question 10
+select p.first_name as patient_name  ,d.first_name  as doctor_name
+from patients p
+inner join doctors d on p.doctor_id = d.doctor_id
+where p.discharge_date is null;
 ```
 
 **Output:**
 
-![Output10](output.png)
+<img width="1282" height="482" alt="image" src="https://github.com/user-attachments/assets/7917efca-f9b6-4f51-8c67-5b19d548fb83" />
+
+
+##GRADE
+<img width="1280" height="60" alt="image" src="https://github.com/user-attachments/assets/ca0b6217-15c3-4a86-aa9d-720b6cd60c3c" />
+
 
 
 ## RESULT
