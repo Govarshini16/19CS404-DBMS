@@ -176,7 +176,9 @@ n = 1535
 Reversed number is 5351
 
 **OUTPUT
-<img width="882" height="312" alt="image" src="https://github.com/user-attachments/assets/1cd8db66-7e6d-4782-b71d-203fb33e232e" />
+
+<img width="915" height="82" alt="image" src="https://github.com/user-attachments/assets/f5396c66-535f-41f5-a8fd-4467f9f36557" />
+
 
 ---
 
@@ -214,11 +216,12 @@ Largest of three number is 15
 
 **OUTPUT
 
-<img width="915" height="82" alt="image" src="https://github.com/user-attachments/assets/f5396c66-535f-41f5-a8fd-4467f9f36557" />
+<img width="915" height="83" alt="Screenshot 2025-11-12 111020" src="https://github.com/user-attachments/assets/c6a50a77-f52e-4e72-b740-e90fcd7b919e" />
 
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
 
