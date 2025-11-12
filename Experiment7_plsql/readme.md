@@ -18,7 +18,7 @@ EXCEPTION
    <exception handling> 
 END;
 ```
-
+    
 ### Basic Components of PL/SQL Block:
 - DECLARE: Section to declare variables and constants.
 - BEGIN: The execution section that contains PL/SQL statements.
@@ -221,6 +221,7 @@ Largest of three number is 15
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
 
