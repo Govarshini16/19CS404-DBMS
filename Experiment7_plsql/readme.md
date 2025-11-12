@@ -71,9 +71,9 @@ Greater number is: 80
 - Display the result using `DBMS_OUTPUT.PUT_LINE`.
 
 
-*CODE
+**CODE
 ```
-DECLARE
+DECLAR
    n NUMBER := 10;       
    sum NUMBER := 0;
    i   NUMBER := 1;
@@ -221,6 +221,7 @@ Largest of three number is 15
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
 
