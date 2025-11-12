@@ -139,7 +139,8 @@ Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
 **OUTPUT
 
-<img width="883" height="313" alt="image" src="https://github.com/user-attachments/assets/0781b52d-d8a4-450d-8c03-5906cd2debf3" />
+<img width="907" height="280" alt="Screenshot 2025-11-12 111425" src="https://github.com/user-attachments/assets/5f9f27ba-8501-44e3-8aae-acba6c13fc1b" />
+
 
 ---
 
@@ -213,10 +214,11 @@ Largest of three number is 15
 
 **OUTPUT
 
-<img width="915" height="82" alt="image" src="https://github.com/user-attachments/assets/0306aa58-184c-4fa8-98d1-d0e4e949131c" />
+<img width="915" height="82" alt="image" src="https://github.com/user-attachments/assets/f5396c66-535f-41f5-a8fd-4467f9f36557" />
 
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
