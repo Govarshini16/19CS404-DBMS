@@ -114,6 +114,9 @@ END;
 **Output:**  
 The program should display the employee details or an error message.
 
+
+<img width="255" height="103" alt="image" src="https://github.com/user-attachments/assets/69f0e99c-c803-407c-8b03-1d3306898866" />
+
 ---
 
 ### **Question 2: Parameterized Cursor with Exception Handling**
@@ -143,8 +146,8 @@ DECLARE
     v_name employees.emp_name%TYPE;
     v_salary employees.salary%TYPE;
 
-    v_min NUMBER := 50000;
-    v_max NUMBER := 70000;
+    v_min NUMBER := 40000;
+    v_max NUMBER := 80000;
 
     no_data BOOLEAN := TRUE;
 BEGIN
@@ -173,6 +176,8 @@ END;
 
 **Output:**  
 The program should display the employee details within the specified salary range or an error message if no data is found.
+
+<img width="333" height="87" alt="image" src="https://github.com/user-attachments/assets/ceaa6740-23eb-4b11-8651-9ec001694016" />
 
 ---
 
@@ -217,6 +222,9 @@ END;
 
 **Output:**  
 The program should display employee names with their department numbers or the appropriate error message if no data is found.
+
+<img width="201" height="78" alt="image" src="https://github.com/user-attachments/assets/6c293cc4-0e4a-4035-b58c-a86acf26a0b5" />
+
 
 ---
 
@@ -276,6 +284,9 @@ END;
 **Output:**  
 The program should display employee records or the appropriate error message if no data is found.
 
+<img width="407" height="112" alt="image" src="https://github.com/user-attachments/assets/9c33a623-232b-4c5c-9314-f16ae42d618a" />
+
+
 ---
 
 ### **Question 5: Cursor with FOR UPDATE Clause and Exception Handling**
@@ -331,6 +342,9 @@ END;
 
 **Output:**  
 The program should update employee salaries and display a message, or it should display an error message if no data is found.
+
+
+<img width="297" height="72" alt="image" src="https://github.com/user-attachments/assets/69585767-f747-4a1a-a833-0c9e446b9202" />
 
 ---
 
