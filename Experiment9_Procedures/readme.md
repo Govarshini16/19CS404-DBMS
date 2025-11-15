@@ -60,7 +60,7 @@ Key Differences:
 - Use `DBMS_OUTPUT.PUT_LINE` to display the result.
 - Call the procedure with a number as input.
 
-** Code:
+**Code:**
 
 
 ```
@@ -83,7 +83,7 @@ END;
 Square of 6 is 36
 ---
 
-**Output:
+**Output:**
 
 <img width="892" height="78" alt="image" src="https://github.com/user-attachments/assets/7513afb2-249b-4ca3-a581-cea07915a63e" />
 
